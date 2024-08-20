@@ -1,0 +1,29 @@
+/voronoi_planner:
+  ros__parameters:
+    distance_thresh: 0.5
+    distance_thresh_max_fails_: 5
+    field_size: [20.0, 10.0, 3.0]
+    grid_resolution: 0.2
+    layers_above: 3
+    layers_graph_3d: 10
+    layers_lower: 1
+    layers_threshold: 0.5
+    line_increase: 0.1
+    max_acc: 1.0
+    max_vel: 1.0
+    move_coefficient: 0.15
+    plot_voronoi: true
+    plot_size: [1500, 800]
+    point_distance: 0.2
+    points_thresh: 0.4
+    rdp_epsilon_astar: 0.1
+    rdp_epsilon_voronoi: 0.1
+    robot_goal: [19.5, 9.5, 2.0]
+    robot_start: [0.5, 0.5, 0.0]
+    sample_points: 100
+    save_yaml: true
+    save_yaml_path: /home/neo/workspace/logs/voronoi_planner.yaml
+    save_log: false
+    seed: 25
+    spline_bc_order: 2
+    spline_bc_values: [0.0, 0.0, 0.0]
