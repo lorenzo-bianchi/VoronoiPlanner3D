@@ -21,8 +21,8 @@
     robot_goal: [19.5, 9.5, 2.0]
     robot_start: [0.5, 0.5, 0.0]
     sample_points: 100
-    save_yaml: true
-    save_yaml_path: /home/neo/workspace/logs/voronoi_planner.yaml
+    save_yaml: false
+    save_yaml_path: /path-to-dir/voronoi_planner.yaml
     save_log: false
     seed: 25
     spline_bc_order: 2

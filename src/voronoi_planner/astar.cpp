@@ -285,7 +285,6 @@ std::vector<int> Astar::find_adjacent(Point3D point)
 
     if (!intersecting)
     {
-      std::cout << "i: " << i << std::endl;
       adjacent.push_back(i);
     }
   }
