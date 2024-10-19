@@ -71,7 +71,7 @@ or
 
 depending on the shell you are currently using.
 
-### 3. Launch the Package
+### 3. Launch VoronoiPlanner3D node
 
 ```bash
 ros2 launch voronoi_planner voronoi_planner.launch.py
@@ -88,6 +88,9 @@ Moreover, the code publishes a `MarkerArray` message representing obstacles and 
 ![RVIZ](images/voronoi_rviz.png)
 
 The code is meant to run the algorithm once and then keep publishing the `MarkerArray` until the user stops the execution by pressing `CTRL+C`. This is intendend just as an example of how the code works: users will need to implement their own callbacks to receive the different map layers and use the functionalities of this library to compute the final trajectory.
+
+## TODO
+- Add docker
 
 ## License
 This work is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
